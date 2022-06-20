@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Market Land</string>
+    <string name="market_land">MARKET LAND</string>
+    <string name="dbms_project">DBMS PROJECT</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgotten_password">Forgotten Password??</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="send_me_code">SEND ME CODE</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="admin_name">Admin Name</string>
+    <string name="admin_id">Admin ID</string>
+    <string name="email_address">Email Address</string>
+    <string name="write_your_code_here">Write Your Code Here :</string>
+    <string name="submit_code">SUBMIT CODE</string>
+    <string name="enter_contact_number">Enter Contact Number</string>
+    <string name="set_password">Set Password</string>
+    <string name="set_username">Set Username</string>
+</resources>

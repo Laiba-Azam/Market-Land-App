@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/Locations"
+        android:title="Shop Locations" app:showAsAction="never">
+    </item>
+    <item android:id="@+id/Contact_Us"
+        android:title="Contact Us" app:showAsAction="never">
+    </item>
+    <item android:id="@+id/Help"
+        android:title="Help" app:showAsAction="never">
+    </item>
+    <item android:id="@+id/Feedback"
+        android:title="Feedback" app:showAsAction="never">
+    </item>
+    <item android:id="@+id/Policy"
+        android:title="Shop Policies" app:showAsAction="never">
+    </item>
+    <item android:id="@+id/Account_Settings"
+        android:title="Account Settings" app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/Update"
+                android:title="Change Details" />
+            <item
+                android:id="@+id/Delete"
+                android:title="Delete Account" />
+        </menu>
+    </item>
+    <item android:id="@+id/Logout"
+        android:title="Logout" app:showAsAction="never">
+    </item>
+
+</menu>

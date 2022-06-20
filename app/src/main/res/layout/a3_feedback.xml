@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="10dp"
+    android:bottomRightRadius="10dp"
+    android:paddingBottom="10dp">
+
+    <Button
+        android:id="@+id/Submit_Feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/blue_corners"
+        android:backgroundTint="@color/teal_200"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20dp"
+        android:paddingStart="360dp"
+        android:layout_marginBottom="10dp"
+        android:paddingEnd="12dp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/star3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="100dp"
+        android:src="@drawable/ic_star_unfilled"
+        app:layout_constraintEnd_toStartOf="@id/star2"
+        app:layout_constraintBottom_toBottomOf="@+id/star2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/star2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:src="@drawable/ic_star_unfilled"
+        app:layout_constraintBottom_toBottomOf="@+id/star3"
+        app:layout_constraintStart_toEndOf="@id/star1"
+        app:layout_constraintEnd_toStartOf="@id/star3"
+        app:layout_constraintTop_toTopOf="@+id/star3"
+        tools:layout_editor_absoluteX="143dp" />
+
+    <ImageView
+        android:id="@+id/star3"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:src="@drawable/ic_star_unfilled"
+        app:layout_constraintBottom_toTopOf="@id/Submit_Feedback"
+        app:layout_constraintEnd_toStartOf="@id/star4"
+        app:layout_constraintStart_toEndOf="@id/star2"
+        app:layout_constraintTop_toBottomOf="@id/feed"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/star4"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:src="@drawable/ic_star_unfilled"
+        app:layout_constraintBottom_toBottomOf="@+id/star3"
+        app:layout_constraintStart_toEndOf="@id/star3"
+        app:layout_constraintEnd_toStartOf="@id/star5"
+        app:layout_constraintTop_toTopOf="@+id/star3"
+        tools:layout_editor_absoluteX="225dp" />
+
+    <ImageView
+        android:id="@+id/star5"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="100dp"
+        android:src="@drawable/ic_star_unfilled"
+        app:layout_constraintBottom_toBottomOf="@+id/star4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/star4"
+        app:layout_constraintStart_toEndOf="@id/star4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Rate Our Application"
+        android:textColor="#3212b3"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
